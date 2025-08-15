@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+nav{
+    background-color: rgba(128, 128, 128, 0.767);
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;    
+}
+
+article{
+    background-color: lightgray;
+
+}
+
+
+article > aside{
+    background-color: rgb(150, 145, 145);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+
+}
