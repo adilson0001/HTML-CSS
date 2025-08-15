@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+    
+    a{
+        color: red;
+        text-decoration: none;
+    }
+
+    a:visited{
+        color: rgb(112, 17, 17);
+    }
+
+    a:hover{
+        text-decoration: underline;
+        color: black;
+    }
+
+    a:active{
+        color: yellow;
+    }
+
+    a::after{
+        content:  '[link]';
+        text-decoration: none;
+        font-weight: normal;
+        color: darkgray;
+    }
+</style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+
+    <ul>
+        <li><a href="https://github.com/adilson0001" target="_blank" >git hub</a></li>
+        <li><a href="youtube.com" target="_blank">youtube</a></li>
+        <li><a href="https://www.google.com/search?gs_ssp=eJzj4tLP1TcoNzC2MDBVYDRgdGDw4sjJzMtOTcnMAwBRaga5&q=linkedin&oq=loin&gs_lcrp=EgZjaHJvbWUqFQgBEC4YChiDARjHARixAxjRAxiABDIJCAAQRRg5GIAEMhUIARAuGAoYgwEYxwEYsQMY0QMYgAQyBwgCEAAYgAQyBwgDEAAYgAQyCQgEEAAYChiABDIHCAUQABiABDIJCAYQABgKGIAEMgcIBxAAGIAEMgcICBAAGIAEMgwICRAAGAoYsQMYgATSAQg4NjE3ajBqNKgCALACAA&sourceid=chrome&ie=UTF-8" target="_blank">linkedin</a></li>
+    </ul>
+
+
+</body>
+</html>
