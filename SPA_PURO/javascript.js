@@ -9,14 +9,33 @@ function exibirPagina(paginaId) {
 }   
 
 // Adicionar os ouvintes de eventos para os botões
-document.getElementById('irParaPagina2').addEventListener('click',
+document.getElementById('Pag1irParaPagina2').addEventListener('click',
     function() {
         exibirPagina('pagina2');
 });
 
-document.getElementById('irParaPagina1').addEventListener('click',
+document.getElementById('Pag2irParaPagina1').addEventListener('click',
     function() {
         exibirPagina('pagina1');
 });
 
+document.getElementById('Pag1irParaPagina3').addEventListener('click',
+    function() {
+        exibirPagina('pagina3');
+});
+
+document.getElementById('Pag3irParaPagina2').addEventListener('click',
+    function() {
+        exibirPagina('pagina2');
+});
+
+document.getElementById('Pag3irParaPagina1').addEventListener('click',
+    function() {
+        exibirPagina('pagina1');
+});
+
+document.getElementById('Pag2irParaPagina3').addEventListener('click',
+    function() {
+        exibirPagina('pagina3');
+});
 
